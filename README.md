@@ -1,2 +1,2 @@
-# cpp-ICPC-templates
+# ICPC-templates
 Templates for ICPC
