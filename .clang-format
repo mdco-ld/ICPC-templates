@@ -1,2 +1,4 @@
 BasedOnStyle:  llvm
-IndentWidth:     4
+UseTab: Always
+IndentWidth: 4
+TabWidth: 4
