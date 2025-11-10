@@ -53,5 +53,7 @@
 \setlength{\columnseprule}{0.4pt}
 
 \newcommand{\addtemplate}[1]{
-	\inputminted[firstline=3]{cpp}{templates/#1.cpp}
+	\immediate\write18{python3 ./scripts/prepare.py < ./templates/#1.cpp}
+	\input{/tmp/icpc-prepared-template.tex}
+	\immediate\write18{rm -f /tmp/icpc-prepared-template.tex}
 }

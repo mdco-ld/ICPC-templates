@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+// begin template //
 vector<int> kmp(string &s) {
 	int n = ssize(s);
 	vector<int> pre(n);
@@ -10,3 +12,4 @@ vector<int> kmp(string &s) {
 	}
 	return pre;
 }
+// end template //
